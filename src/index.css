@@ -1,0 +1,35 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+
+.justify-content-space-between{
+    justify-content: space-between;
+}
+.modal-dialog{
+    margin-top: 6rem !important;
+}
+.listing .modal-content{
+    width: 525px;
+    right: 370px !important;
+}
+.listing .modal-dialog{
+    margin-left: 24rem !important;
+}
+
+@media (max-width : 600px) {
+    .listing .modal-content {
+        width: 350px;
+        right: 365px !important;
+    }
+    
+}
